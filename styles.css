@@ -1,3 +1,23 @@
+html {
+    scroll-padding-top: 4rem;
+  }
+
+.navbar-nav {
+    padding-left: 300px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px; 
+}
+
+.interactive-text {
+    cursor: pointer;
+}
+
+.projects{
+    text-align: right;
+}
+
 .contact-form {
     /* margin-top: 50px; */
     background-image: url("images/contactus.png");
@@ -17,16 +37,22 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1px;
+    padding: 50px;
 }
 
 .square {
     background-color: #f2f2f2;
     padding: 20px;
+    border: none;
 }
 
 .square-content {
     text-align: left;
+}
+
+.card img {
+    object-fit: cover;
+    height: 100%; 
 }
 
 .back {
@@ -42,3 +68,25 @@
     color: orange;
     cursor: pointer;
 }
+
+.text-content {
+    margin-left: 15%;
+    padding-top: 50px;
+}
+
+.text-content h2 {
+    font-size: 50px;
+    padding-bottom: 50px;
+    color: darkkhaki;
+}
+
+.text-content h2 span {
+    font-size: 50px;
+    display: block;
+    color: black;
+}
+.show-all {
+    color: darkkhaki;
+}
+.material-icons-outlined.darkkhaki { color: darkkhaki; }
+.material-icons-outlined.md-48 { font-size: 48px; }
